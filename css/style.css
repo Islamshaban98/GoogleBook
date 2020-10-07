@@ -1,0 +1,82 @@
+body{
+    background-color:black;
+}
+.head{
+    padding: 20px;
+   text-align: center;
+   color: rgb(238, 228, 82); 
+   font-size: 40px;
+}
+form{
+    padding: 70px 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px;
+    border-bottom-color:  brown;
+    border-bottom-style: solid;
+}
+.book{
+    display: flex;
+    flex-direction: column;
+}
+.text-input{
+    padding: 10px;
+    border-radius: 5px;
+    border-color: rgb(238, 228, 82);
+    border-style: solid;
+    background-color: black;
+    margin-right: 20px;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: rgb(238, 228, 82);
+
+
+}
+.submit-input{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:rgb(238, 228, 82);
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    background-color:rgb(238, 228, 82);
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bookTitle{
+    margin-left: 3%;
+    color: rgb(238, 228, 82);
+    width: 70%;  
+}
+.publisher{
+    color: brown;
+    margin-left: 3%;
+}
+.date{
+    color: brown;
+    margin-left: 3%; 
+}
+.imgStyle{
+    margin-left: 5%;
+    width: 20%;
+    float: left;
+    padding-right:20px;
+}
+.descriptionStyle{
+    color: rgb(221, 217, 217);
+    text-align: justify;
+    margin-left:  5%;
+    width: 70%;
+}
